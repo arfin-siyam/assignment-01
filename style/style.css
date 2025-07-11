@@ -27,7 +27,7 @@ body{
 
 .first-head nav h2 {
     color: #4e47ff;
-    font-size: 34px;
+    font-size: 45px;
     font-weight: 800;
 }
 .first-head nav button{
@@ -35,7 +35,7 @@ body{
     color: white;
     font-size: 18px;
     font-weight: 400;
-    padding: 12px 30px;
+    padding: 10px 30px;
     border: none;
     border-radius: 12px;
 }
@@ -113,40 +113,6 @@ font-weight: bold;
     border-radius: 50px;
 }
 
-.users-part{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    margin: 50px 100px;
-}
-
-.userspart-two {
-    background-color: #dbdaf1;
-    border: none;
-    border-radius: 10px;
-    margin: 20px 30px;
-}
-
-.user-title h4{
-    font-weight: bold;
-    font-size: 50px;
-
-}
-
-.userspart-three{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.userspart-three div{
-    line-height: 0.5PX;
-}
-
-.userspart-three h2{
-color: #4e47ff;
-} 
 
 
 
@@ -189,71 +155,32 @@ body {
   margin-top: 5px;
 }
 
-.Productive{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 120px 0px;
-   
-}
-
-
-.Productive .Productive-container{
-    background-color: #4d47ff2d;
-    padding: 30px 100px;
-}
-.Productive .Productive-container .title{
-    font-size: 30px;
-    font-weight: 600;
-}
-
-.Productive .Productive-container .users{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-
-.Productive .Productive-container .users div{
-    line-height: 0.5px;
-}
-.Productive .Productive-container .users div h2{
-    color: #4E47FF;
-    font-size: 50px;
-    font-weight: 900;
-}
-
-.Productive .Productive-container .users div p{
-    color: #9b9b9b;
-    font-size: small;
-    font-weight: 700;
-}
-
 
 .users-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px;
+    margin: 30px;
 }
 
-.users-container .users{
+.users{
     text-align: center;
     width: 50%;
 }
 
-.users-container .users .users-text h3{
-    font-size: 40px;
-    font-weight: 800;
+.users-text h3{
+    font-size: 50px;
+    font-weight: bold;
  
 }
 
-.users-container .users .main-profile{
+.main-profile{
     display: flex;
     justify-content: space-between;
     text-align: left;
 }
 
-.users-container .users .main-profile .users-part{
+.users-part{
     width: 35%;
     padding: 40px;
     border: none;
@@ -265,38 +192,37 @@ body {
 }
 
 
-.users-container .users .main-profile .users-part .designers h5{
+.designers h5{
     font-size: 15px;
     font-weight: 700;
  
 }
-
-.users-container .users .main-profile .users-part .designers p{
+.designers p{
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
 }
 
-.users-container .users .main-profile .users-part .designers .profile{
+ .profile{
     display: flex;
     justify-content: left;
     align-items: center;
     
 }
 
-.users-container .users .main-profile .users-part .designers .profile .img img{
+ .img img{
     border-radius: 40%;
     padding-right: 20px;
     
 }
 
-.users-container .users .main-profile .users-part .designers .profile .document p{
+.document p{
     line-height: 10px;
     font-size: small;
     font-weight: 400;
 }
 
-.users-container .users .main-profile .users-part .designers .profile .document .date{
+.date{
     color: #b3b1b1;
 }
 
@@ -306,7 +232,7 @@ body {
     align-items: center;
 }
 
-.focus-container .main-part{
+.main-part{
     padding: 50px 100px;
     margin: 50px;
     border: none;
@@ -315,24 +241,23 @@ body {
     background-color: white;
 }
 
-.focus-container .main-part .text-container{
+ .text-container{
     text-align: center;
     line-height: 20px;
     margin: 20px 0px;
 }
 
-.focus-container .main-part .text-container h1{
+ .text-container h1{
     font-size: 40px;
     font-weight: bold;
 }
-
-.focus-container .main-part .text-container p{
+ .text-container p{
     font-size: 15px;
     font-weight: 500;
     color: #b3b1b1;
 }
 
-.focus-container .main-part .text-container button{
+ .text-container button{
     background-color: #4E47FF;
     color: white;
     font-size: 20px;
@@ -342,7 +267,7 @@ body {
     border-radius: 10px; 
 }
 
-.focus-container .main-part .img-container img{
+ .img-container img{
     border-radius: 50px;
     margin: 30px;
 }
@@ -357,7 +282,7 @@ body {
 
 }
 
-.form-container .form{
+ .form{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -366,17 +291,17 @@ body {
 
 }
 
-.form-container .form .form-text h1{
+.form-text h1{
    width: 70%;
    font-size: 70px;
    font-weight: 900;
 }
 
-.form-container .form .form-input p{
-   font-size: small;
+.form-input p{
+   font-size:600;
 }
 
-.form-container .form .form-input input{
+.form-input input{
    width: 497px;
    height: 70;
    padding: 32px 20px;
@@ -386,17 +311,16 @@ body {
    
 } 
 
-.form-container .form .form-input .message{
+ .message{
    width: 497px;
    height: 135px;
    padding: 32px 20px;
    
 } 
 
-.form-container .form .form-input .btn button{
+ .btn button{
     background-color: #4E47FF;
     color: white;
-    font-family: 'Satoshi', sans-serif;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 100px;
@@ -446,5 +370,5 @@ body {
     text-decoration: none;
     color: #9b9b9b;
     font-size: small;
-    font-weight: 800;
+    font-weight: 600;
 }
