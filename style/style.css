@@ -113,3 +113,338 @@ font-weight: bold;
     border-radius: 50px;
 }
 
+.users-part{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 50px 100px;
+}
+
+.userspart-two {
+    background-color: #dbdaf1;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 30px;
+}
+
+.user-title h4{
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.userspart-three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.userspart-three div{
+    line-height: 0.5PX;
+}
+
+.userspart-three h2{
+color: #4e47ff;
+} 
+
+
+
+body {
+  background-color: #f5f8ff;
+}
+
+.stats-container {
+  background-color: #dfdff0;
+  padding: 20px 30px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.stats-container h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color:black;
+  margin-bottom: 30px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.stat {
+  color: #4b48ff;
+}
+
+.stat-number {
+  font-size: 75px;
+  font-weight: bold;
+}
+
+.stat-label {
+  font-size: 20px;
+  color: #474545;
+  margin-top: 5px;
+}
+
+.Productive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0px;
+   
+}
+
+
+.Productive .Productive-container{
+    background-color: #4d47ff2d;
+    padding: 30px 100px;
+}
+.Productive .Productive-container .title{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Productive .Productive-container .users{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.Productive .Productive-container .users div{
+    line-height: 0.5px;
+}
+.Productive .Productive-container .users div h2{
+    color: #4E47FF;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.Productive .Productive-container .users div p{
+    color: #9b9b9b;
+    font-size: small;
+    font-weight: 700;
+}
+
+
+.users-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.users-container .users{
+    text-align: center;
+    width: 50%;
+}
+
+.users-container .users .users-text h3{
+    font-size: 40px;
+    font-weight: 800;
+ 
+}
+
+.users-container .users .main-profile{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.users-container .users .main-profile .users-part{
+    width: 35%;
+    padding: 40px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgb(221, 221, 221) 5px 5px 20px;
+    line-height: 10px;
+    
+    background-color: white;
+}
+
+
+.users-container .users .main-profile .users-part .designers h5{
+    font-size: 15px;
+    font-weight: 700;
+ 
+}
+
+.users-container .users .main-profile .users-part .designers p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.users-container .users .main-profile .users-part .designers .profile{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.users-container .users .main-profile .users-part .designers .profile .img img{
+    border-radius: 40%;
+    padding-right: 20px;
+    
+}
+
+.users-container .users .main-profile .users-part .designers .profile .document p{
+    line-height: 10px;
+    font-size: small;
+    font-weight: 400;
+}
+
+.users-container .users .main-profile .users-part .designers .profile .document .date{
+    color: #b3b1b1;
+}
+
+.focus-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.focus-container .main-part{
+    padding: 50px 100px;
+    margin: 50px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgb(221, 221, 221) 5px 5px 20px;
+    background-color: white;
+}
+
+.focus-container .main-part .text-container{
+    text-align: center;
+    line-height: 20px;
+    margin: 20px 0px;
+}
+
+.focus-container .main-part .text-container h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.focus-container .main-part .text-container p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #b3b1b1;
+}
+
+.focus-container .main-part .text-container button{
+    background-color: #4E47FF;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px; 
+}
+
+.focus-container .main-part .img-container img{
+    border-radius: 50px;
+    margin: 30px;
+}
+
+/* this is the form part design */
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.form-container .form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin: 50px;
+
+}
+
+.form-container .form .form-text h1{
+   width: 70%;
+   font-size: 70px;
+   font-weight: 900;
+}
+
+.form-container .form .form-input p{
+   font-size: small;
+}
+
+.form-container .form .form-input input{
+   width: 497px;
+   height: 70;
+   padding: 32px 20px;
+   border: 0.5px solid gray;
+   border-radius: 0px;
+   box-sizing: border-box;
+   
+} 
+
+.form-container .form .form-input .message{
+   width: 497px;
+   height: 135px;
+   padding: 32px 20px;
+   
+} 
+
+.form-container .form .form-input .btn button{
+    background-color: #4E47FF;
+    color: white;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 100px;
+    margin: 50px 0px;
+    border: none;
+    border-radius: 10px; 
+    width: 497px;
+}
+
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    padding: 100px 0px;
+    background-color: white;
+}
+
+.footer-container h1{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.footer-container p{
+    width: 25%;
+    font-size: 15px;
+    font-weight: 400;
+    color: #9b9b9b;
+    text-align: center;
+}
+
+.footer-container ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   
+}
+
+.footer-container ul li{
+    list-style: none;
+}
+
+.footer-container ul li a{
+    text-decoration: none;
+    color: #9b9b9b;
+    font-size: small;
+    font-weight: 800;
+}
