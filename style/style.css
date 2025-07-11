@@ -35,7 +35,7 @@ body{
     color: white;
     font-size: 18px;
     font-weight: 400;
-    padding: 5px 30px;
+    padding: 12px 30px;
     border: none;
     border-radius: 12px;
 }
@@ -55,5 +55,61 @@ text-align: center;
 font-size: 55PX;
 width: 70%;
 font-weight: bold;
-
 }
+
+.second-head button{
+    background-color: #4e47ff;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.mainpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+
+.mainpart-one{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70 px 0px;
+}
+
+.mainpart-two{
+    width: 40%;
+}
+
+.mainpart-two h3{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.mainpart-two p{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(37, 36, 50, 0.5);
+    line-height: 25px;
+}
+
+.mainpart-two button{
+    background-color: #4e47ff;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.mainpart-image img{
+    border: none;
+    border-radius: 50px;
+}
+
